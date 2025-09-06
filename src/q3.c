@@ -1,1 +1,18 @@
-// Write a C program that calculates the absolute value of a given number without using the built-in absolute value function.
+#include <stdio.h>
+
+int main()
+{
+    int p, sach;
+    printf("Enter an integer: ");
+    scanf("%d", &p);
+    if (p < 0)
+    {
+        sach = -p;
+    }
+    else
+    {
+        sach = p;
+    }
+    printf("Absolute Value: %d\n", sach);
+    return 0;
+}
